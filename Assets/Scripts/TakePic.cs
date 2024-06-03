@@ -21,8 +21,19 @@ public class TakePic : MonoBehaviour
 
     void SpawnSphere()
     {
-        sphere.SetActive(true);
+        // Set the initial position of the sphere high above the ground
+        Vector3 spawnPosition = new Vector3(0, 50, 0);
 
+        // Instantiate a new sphere at the spawn position
+        GameObject newSphere = Instantiate(sphere, spawnPosition, Quaternion.identity);
+
+        // Ensure the sphere is active
+        newSphere.SetActive(true);
+
+        // Ensure the sphere has a Rigidbody component so it's affected by gravity
+        if (newSphere.GetComponent<Rigidbody>() == null)
+        {
+            newSphere.AddComponent<Rigidbody>();
+        }
     }
-
 }
