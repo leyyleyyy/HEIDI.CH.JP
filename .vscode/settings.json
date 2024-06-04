@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Heidi.CH.JP.sln"
+    "dotnet.defaultSolution": "HEIDI.CH.JP.sln"
 }
