@@ -1284,6 +1284,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5076484507258936684, guid: 77d682e7571822241a4179ada78e1074, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -1184346410154325552, guid: 77d682e7571822241a4179ada78e1074, type: 3}
       propertyPath: m_DynamicOccludee
       value: 0
@@ -1304,6 +1308,8 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 77d682e7571822241a4179ada78e1074, type: 3}
     - {fileID: -7102698966669662311, guid: 77d682e7571822241a4179ada78e1074, type: 3}
+    - {fileID: -7527954129569262175, guid: 77d682e7571822241a4179ada78e1074, type: 3}
+    - {fileID: -3862739090831940512, guid: 77d682e7571822241a4179ada78e1074, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77d682e7571822241a4179ada78e1074, type: 3}
@@ -1466,7 +1472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4d56ceb18013084ea7df06b8e232956, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.87
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4d56ceb18013084ea7df06b8e232956, type: 3}
       propertyPath: m_LocalPosition.z
