@@ -849,6 +849,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: -5695589691187970852, guid: 77d682e7571822241a4179ada78e1074, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -869,6 +870,8 @@ PrefabInstance:
       propertyPath: m_UseColorTemperature
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 55c5ff1 (update)
 =======
 >>>>>>> parent of 55c5ff1 (update)
     - target: {fileID: -1184346410154325552, guid: 77d682e7571822241a4179ada78e1074, type: 3}
